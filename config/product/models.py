@@ -11,7 +11,7 @@ class Product(models.Model):
         return self.name
     
     # создаём простой метод
-    def apply_discount(self,percent):
+    #def apply_discount(self,percent):
         #прининяем скидку к товару
-        self.price = self.price*(100-percent)/100
-        self.save()
+    #    self.price = self.price*(100-percent)/100
+    #    self.save()
