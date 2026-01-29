@@ -1,5 +1,5 @@
 from django.apps import AppConfig
 
 
-class LibraryConfig(AppConfig):
-    name = 'library'
+class AuthorConfig(AppConfig):
+    name = 'author'
